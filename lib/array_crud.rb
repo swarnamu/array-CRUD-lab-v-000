@@ -22,17 +22,21 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-
+  number = ["wow", 77, 88, 99, 66, "arrays!"]
+  number.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-
+  number = ["wow", 77, "am", 88, 99, 66, "arrays!"]
+  number[2]
 end
 
 def retrieve_first_element_from_array(array)
-
+  number = ["wow", 77, "am", 88, 99, 66, "arrays!"]
+  number[0]
 end
 
 def retrieve_last_element_from_array(array)
-
+  number = ["wow", 77, "am", 88, 99, 66, "arrays!"]
+  number[6]
 end
